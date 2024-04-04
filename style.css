@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 30%;
+  background-color: rgb(228, 230, 126);
+  outline: 2px solid rgb(232, 187, 115);
+}
+
+.box h1 {
+  width: 500px;
+  height: 200px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  padding-top: 5px;
+  color: blue;
+}
+
+.circle {
+  height: 200px;
+  width: 100px;
+  margin: 20px 0 10px 200px;
+  border-radius: 50%;
+}
+.circle img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px;
+  outline: 3px dotted rgb(63, 10, 187);
+}
+.Square {
+  margin-left: 50px;
+  background-color: rgb(154, 175, 243);
+  width: 500px;
+  height: 50px;
+  outline: 3px solid rgb(52, 9, 152);
+  border-radius: 5px;
+}
+.inputBox {
+  width: 500px;
+  height: 100px;
+  outline: 2px solid rgb(29, 11, 163);
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
